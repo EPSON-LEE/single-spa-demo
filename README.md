@@ -1,19 +1,31 @@
-# parent
+# Micro Fronted
 
-## Project setup
+
+## 如何运行 ？
+
 ```
+// 安装基座项目依赖
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+// 启动基座项目
+
 npm run serve
+
+// 安装子项目依赖
+
+cd sub-vue 
+
+npm install
+
+// 启动 vue 子项目
+
+npm run serve:dist
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 可以集成哪些项目？
+
+目前集成了 vue
+
